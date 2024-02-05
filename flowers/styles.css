@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+    background-color: rgb(16, 143, 50);
+}
+
+/************************************************************************************ 
+z-index levels
+************************************************************************************/
+
+.level0 {
+    z-index: 100;
+}
+
+.level1 {
+    z-index: 99;
+}
+
+/************************************************************************************ 
+flowers
+************************************************************************************/
+
+/******
+flower1
+******/
+
+.flower1 {
+    display: block;
+    position: relative;
+    top: 45vh;
+    left: 20vw;
+}
+
+.flower1-center {
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(65, 181, 254);
+    border-radius: 50%;
+}
+
+.flower1-allpetals {
+    position: absolute;
+    top: -24px;
+    left: -8px;
+}
+
+.flower1-petal1,
+.flower1-petal2,
+.flower1-petal3,
+.flower1-petal4 {
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 68px;
+    background-color: rgb(179, 12, 62);
+    border-radius: 50%;
+}
+
+.flower1-petal1 {
+    top: -30px;
+}
+
+.flower1-petal2 {
+    rotate: 90deg;
+    left: 30px;
+}
+
+.flower1-petal3 {
+    rotate: 180deg;
+    top: 30px;
+}
+
+.flower1-petal4 {
+    rotate: 270deg;
+    left: -30px;
+}
